@@ -8,5 +8,6 @@ Implement Test Automation for the following API: “https://restful-booker.herok
 
 
 # How to configure the environment
+- Validate you have JDK17
 - Clone the project
 
