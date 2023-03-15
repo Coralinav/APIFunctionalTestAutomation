@@ -2,9 +2,11 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
 import io.restassured.http.ContentType;
+import org.junit.Test;
 import org.testng.Assert;
 
 public class Booking {
+    @Test
     public static void main(String[] args) {
         String endpoint = "https://restful-booker.herokuapp.com/booking";
 
